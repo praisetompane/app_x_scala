@@ -1,5 +1,5 @@
 # app_x_scala
-![build status](https://github.com/praisetompane/app_project_x_scala/actions/workflows/app_x_scala.yaml/badge.svg) <br>
+![build status](https://github.com/praisetompane/app_x_scala/actions/workflows/app_x_scala.yaml/badge.svg) <br>
 
 generic scala CLI template project for file processing.
 
@@ -33,6 +33,12 @@ generic scala CLI template project for file processing.
 # dependencies
 - java 11
 
+# build
+```shell
+# from root directory
+make
+```
+
 # usage
 
 - clone repository to machine
@@ -40,11 +46,11 @@ generic scala CLI template project for file processing.
 
 ```shell
 # from root directory
-./release/app_project_x_scala.jar  ./release/sample_input.txt
+./release/app_x_scala.jar  ./release/sample_input.txt
 ```
 
 - for your own file, run from the release folder with command format below
 
 ```
-    ./app_project_x_scala.jar <your_file_name>
+    ./app_x_scala.jar <your_file_name>
 ```
